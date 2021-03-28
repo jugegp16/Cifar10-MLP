@@ -1,17 +1,15 @@
 # Cifar10-MLP
 
-# Evaluating Different Hyperparamaters
-
-# I experimented with the batch size, hidden size, dropout, learning rate, lr_schedueler and optimizer type.
-# I did my all my tests on 15 epochs and wrote down the first output recieved. 
-# I found that a combination of AdamW and CosineAnnealingLR with a batch size arround 20 and hidden size of 450 yielded the best results. 
-# If I were to do further testing I would try out more Optimizers such as ASGD, AdaGrad and AdaMax.
+Evaluating Different Hyperparamaters
+-------------------
+I experimented with the batch size, hidden size, dropout, learning rate, lr_schedueler and optimizer type. I did my all my tests on 15 epochs and wrote down the first output recieved. I found that a combination of AdamW and CosineAnnealingLR with a batch size arround 20 and hidden size of 450 yielded the best results. If I were to do further testing I would try out more Optimizers such as ASGD, AdaGrad and AdaMax.
 
 # Test Results
 
-# batch size    - 10      | 15      | 20
-#   * accuracy  - 51.41%  | 51.96%  | 55.70%
-#   * loss      - 1.68    | 1.03    | 1.70
+| batch size   |   10    |   15    |  20    |
+|--------------|---------|---------|--------|
+|  * accuracy  | 51.41%  | 51.96%  | 55.70% |
+|  * loss      | 1.68    | 1.03    | 1.70   |
 
 # hidden size   - 100     | 450     | 800
 #   * accuracy  - 45.47%  | 51.96%  | 52.21% 
