@@ -17,12 +17,10 @@ Test Results (P2)
 |---------------|---------|---------|-------|
 |   accuracy    | 51.44%  | 51.854  | 42.12 |
 |   loss        | 1.78    | 1.06    | 2.13  |
-
 | lr_schedueler| CosineAnnealingLR | CosineAnnealingWarmRestarts | StepLR |
 |--------------|-------------------|-----------------------------|--------|
 |   accuracy   |      54.97%       |         40.74%              | 39.79% |
 |   loss       |      1.01         |         0.99                | 1.04   |
-
 | optimizer  | Adam    | AdamW  | SGD    |
 |------------|---------|--------|--------|
 |  accuracy  | 55.05%  | 51.07% | 35.11% |
@@ -33,8 +31,10 @@ Transfer Learning  (P3)
 -------------------
 Transfer learning is a machine learning technique where a model developed for one task is reused as the starting point for a model on a second task. I used an ImageNet pre-trained model, MobileNetV2 and finetuned it to my Cifar10 dataloader. I experimented with two different methods of transfer learning...
 
-1. Feature extraction - freezing all layers of the model layers except the final classifcation layer.
-2. Fine-tuning - Further training all layers of pretrained model with a small learning rate
+  * Feature extraction - freezing all layers of the model layers except the final classifcation layer.
+  * Fine-tuning - Further training all layers of pretrained model with a small learning rate
+  
+
 Test results (P3)
 -------------------
 | Type of Tranfer Learning | Accuracy|  Loss  |
