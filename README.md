@@ -2,7 +2,7 @@
 
 Description
 -----------------
-I created building a custom data loader in PyTorch to set up a pipeline for my model. Then implemented a 3-layer Multi-layer perceptron to classify images from the Cifar-10 dataset. Finally, I played around with two different spices of transfer learning and reported my results! 
+I created a custom data loader in PyTorch to set up a pipeline for my model. Then implemented a 3-layer Multi-layer perceptron to classify images from the Cifar-10 dataset. Finally, I played around with two different spices of transfer learning and reported my results! 
 
 
 Multi-Layer-Perceptron. (P2)
