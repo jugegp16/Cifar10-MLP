@@ -2,9 +2,7 @@
 
 Description
 -----------------
-1. built a custom dataloader in PyTorch
-2. Created 3-layer MLP 
-3. Implemented transfer learning.
+I created building a custom dataloader in PyTorch to set up a pipeline for my model. Then implemeneted a 3-layer Multi-layer perceptron to classify images from the Cifar-10 dataset. Finally I added played arround with two different spices of transfer learning. 
 
 
 Multi-Layer-Perceptron. (P2)
