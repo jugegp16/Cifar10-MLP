@@ -9,8 +9,6 @@ Multi-Layer-Perceptron.
 -------------------
 I experimented with the batch size, hidden size, dropout, learning rate, lr_schedueler and optimizer type. I did my all my tests on 15 epochs and wrote down the first output recieved. I found that a combination of AdamW and CosineAnnealingLR with a batch size arround 20 and hidden size of 450 yielded the best results. If I were to do further testing I would try out more Optimizers such as ASGD, AdaGrad and AdaMax.
 
-Test Results (P2)
--------------------
 | learning rate |0.001    | 0.0005  | 0.0001
 |---------------|---------|---------|-------|
 |   accuracy    | 51.44%  | 51.854  | 42.12 |
