@@ -5,7 +5,7 @@ Description
 I created a custom data loader in PyTorch to set up a pipeline for my model. Then implemented a 3-layer Multi-layer perceptron to classify images from the Cifar-10 dataset. Finally, I played around with two different spices of transfer learning and reported my results! 
 
 
-Multi-Layer-Perceptron. (P2)
+Multi-Layer-Perceptron.
 -------------------
 I experimented with the batch size, hidden size, dropout, learning rate, lr_schedueler and optimizer type. I did my all my tests on 15 epochs and wrote down the first output recieved. I found that a combination of AdamW and CosineAnnealingLR with a batch size arround 20 and hidden size of 450 yielded the best results. If I were to do further testing I would try out more Optimizers such as ASGD, AdaGrad and AdaMax.
 
@@ -27,16 +27,13 @@ Test Results (P2)
 |  loss      | 1.30    | 1.19   | 1.94   |
 
 
-Transfer Learning  (P3)
+Transfer Learning 
 -------------------
 Transfer learning is a machine learning technique where a model developed for one task is reused as the starting point for a model on a second task. I used an ImageNet pre-trained model, MobileNetV2 and finetuned it to my Cifar10 dataloader. I experimented with two different methods of transfer learning...
 
   * Feature extraction - freezing all layers of the model layers except the final classifcation layer.
   * Fine-tuning - Further training all layers of pretrained model with a small learning rate
   
-
-Test results (P3)
--------------------
 | Type of Tranfer Learning | Accuracy|  Loss  |
 |--------------------------|---------|--------|
 | feature extraction       |  76.69 %|   0.91 |
